@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     List<Book> tempList;
     String offset = null;
     ProgressBar progressBar;
-    String api_key = "app5W9abXg2BBeoDU";
+    String api_key = "";
     Boolean searchActive = false;
 
 
