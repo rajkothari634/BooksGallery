@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     List<Book> tempList;
     String offset = null;
     ProgressBar progressBar;
-    String api_key = "";
+    String api_key = "app5W9abXg2BBeoDU";
     Boolean searchActive = false;
 
 
@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progress_bar);
         bookDetailsList = new ArrayList<>();
         tempList = new ArrayList<>();
-        Book b = new Book("csce","crregr","regergreg","grgtg","viehi");
-        bookDetailsList.add(b);
+//        Book b = new Book("csce","crregr","regergreg","grgtg","viehi");
+//        bookDetailsList.add(b);
 
         recyclerAdapterBookGallery = new RecyclerAdapterBookGallery(this,bookDetailsList);
 
