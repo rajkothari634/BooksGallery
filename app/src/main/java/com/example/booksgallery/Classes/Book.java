@@ -5,6 +5,7 @@ public class Book {
     public String title;
     public String publisher;
     public String genre;
+    public String id;
 
     public String getAuthorName() {
         return authorName;
@@ -13,11 +14,20 @@ public class Book {
     public Book() {
     }
 
-    public Book(String authorName, String title, String publisher, String genre) {
+    public Book(String authorName, String title, String publisher, String genre, String id) {
         this.authorName = authorName;
         this.title = title;
         this.publisher = publisher;
         this.genre = genre;
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public void setAuthorName(String authorName) {

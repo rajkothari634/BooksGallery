@@ -17,7 +17,7 @@
         <TextView
             android:id="@+id/book_item_name"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:gravity="center|start"
             android:textColor="#000000"
             android:textStyle="bold"
@@ -30,8 +30,7 @@
         <TextView
             android:id="@+id/book_item_author_name"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
             android:textColor="#000000"
             android:textSize="18dp"
             android:text="Author Name"
@@ -42,8 +41,7 @@
         <TextView
             android:id="@+id/book_item_genre"
             android:layout_width="wrap_content"
-            android:layout_height="20dp"
-            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"
             android:gravity="end|center"
             android:text="Genre"
             android:textColor="#000000"
@@ -54,8 +52,7 @@
         <TextView
             android:id="@+id/book_item_publisher"
             android:layout_width="0dp"
-            android:layout_height="20dp"
-            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"
             android:gravity="start|center"
             android:text="Publisher"
             android:textColor="#000000"
